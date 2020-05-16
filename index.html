@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-image: url(bday.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+        .pink{
+            width:496px;
+            height:540px;
+            background-color:pink;
+            position:absolute;
+            top:50%;
+            left:50%;
+            box-sizing: border-box;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 2px 12px , 0 2px 12px;
+            perspective:1000px;
+            background-image:url(girlss.jpg);
+            background-size: contain;
+            background-repeat:no-repeat;
+        }
+        .flipbox{
+            height:100%;
+            width:100%;
+            background-image:url(pink.jpeg);
+            box-sizing: border-box;
+            box-shadow: 0 2px 12px , 0 6px 12px;
+            transition:all 3s;
+            transform-style:preserve-3d;
+            opacity:0.9;
+        }
+        .pink:hover .flipbox
+        {
+            transform: rotateY(180deg);
+        }
+        .front{
+            width:50%;
+            height:50%;
+            color:crimson;
+            position:relative;
+            top:20px;
+            left:120px;
+            text-shadow: 3px 3px 1px black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #pre{
+            font-size:xx-large;
+        }
+        .love{
+            font-family: sans-serif;
+            text-shadow:2px 2px 1px red;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="pink">
+            <div class="flipbox">
+               <div>
+                  <h1 class="front">HAPPY BIRTHDAY !!! DEAREST</h1>
+                  <p> <pre style="color:crimson;" id="pre"><br>  for(i=1;i<=life_time;i++)<br>  {<br>      cin>>your jokes;<br>      cout<<"our happiness";<br>  } </pre></p>
+                  <h2><pre class="love">  Stay Connected Bro...</h2></pre>
+                  <h3><pre class="love">  I am sending this to you with<br>  lots of love..</h3></pre>
+               </div>
+            </div>
+    </div>
+       <div>  <img src="gifs.gif"><img src="gifs.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="gifs.gif"></div>  
+</body>
+</html>
